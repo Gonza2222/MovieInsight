@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Programas random para practicar\\pryMovieInsight\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5EAEFA-73EE-4AC4-9635-449CB742BD7D}|pryMovieInsight\\pryMovieInsight.csproj|e:\\programas random para practicar\\prymovieinsight\\prymovieinsight\\frmvisualizacionesmes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5EAEFA-73EE-4AC4-9635-449CB742BD7D}|pryMovieInsight\\pryMovieInsight.csproj|solutionrelative:prymovieinsight\\frmvisualizacionesmes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5EAEFA-73EE-4AC4-9635-449CB742BD7D}|pryMovieInsight\\pryMovieInsight.csproj|E:\\Programas random para practicar\\pryMovieInsight\\prymovieinsight\\frmvisualizacionesmes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F5EAEFA-73EE-4AC4-9635-449CB742BD7D}|pryMovieInsight\\pryMovieInsight.csproj|solutionrelative:prymovieinsight\\frmvisualizacionesmes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5EAEFA-73EE-4AC4-9635-449CB742BD7D}|pryMovieInsight\\pryMovieInsight.csproj|E:\\Programas random para practicar\\pryMovieInsight\\prymovieinsight\\frmestadisticavisualizacionesmes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5EAEFA-73EE-4AC4-9635-449CB742BD7D}|pryMovieInsight\\pryMovieInsight.csproj|solutionrelative:prymovieinsight\\frmestadisticavisualizacionesmes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5EAEFA-73EE-4AC4-9635-449CB742BD7D}|pryMovieInsight\\pryMovieInsight.csproj|E:\\Programas random para practicar\\pryMovieInsight\\prymovieinsight\\frmestadisticavisualizacionesmes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F5EAEFA-73EE-4AC4-9635-449CB742BD7D}|pryMovieInsight\\pryMovieInsight.csproj|solutionrelative:prymovieinsight\\frmestadisticavisualizacionesmes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5EAEFA-73EE-4AC4-9635-449CB742BD7D}|pryMovieInsight\\pryMovieInsight.csproj|E:\\Programas random para practicar\\pryMovieInsight\\prymovieinsight\\frmmovieinsight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F5EAEFA-73EE-4AC4-9635-449CB742BD7D}|pryMovieInsight\\pryMovieInsight.csproj|solutionrelative:prymovieinsight\\frmmovieinsight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmVisualizacionesMes.cs",
+              "DocumentMoniker": "E:\\Programas random para practicar\\pryMovieInsight\\pryMovieInsight\\frmVisualizacionesMes.cs",
+              "RelativeDocumentMoniker": "pryMovieInsight\\frmVisualizacionesMes.cs",
+              "ToolTip": "E:\\Programas random para practicar\\pryMovieInsight\\pryMovieInsight\\frmVisualizacionesMes.cs",
+              "RelativeToolTip": "pryMovieInsight\\frmVisualizacionesMes.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T00:09:04.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmVisualizacionesMes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Programas random para practicar\\pryMovieInsight\\pryMovieInsight\\frmVisualizacionesMes.cs",
+              "RelativeDocumentMoniker": "pryMovieInsight\\frmVisualizacionesMes.cs",
+              "ToolTip": "E:\\Programas random para practicar\\pryMovieInsight\\pryMovieInsight\\frmVisualizacionesMes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "pryMovieInsight\\frmVisualizacionesMes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T00:09:02.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmEstadisticaVisualizacionesMes.cs",
+              "DocumentMoniker": "E:\\Programas random para practicar\\pryMovieInsight\\pryMovieInsight\\frmEstadisticaVisualizacionesMes.cs",
+              "RelativeDocumentMoniker": "pryMovieInsight\\frmEstadisticaVisualizacionesMes.cs",
+              "ToolTip": "E:\\Programas random para practicar\\pryMovieInsight\\pryMovieInsight\\frmEstadisticaVisualizacionesMes.cs",
+              "RelativeToolTip": "pryMovieInsight\\frmEstadisticaVisualizacionesMes.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T00:07:48.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmEstadisticaVisualizacionesMes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Programas random para practicar\\pryMovieInsight\\pryMovieInsight\\frmEstadisticaVisualizacionesMes.cs",
+              "RelativeDocumentMoniker": "pryMovieInsight\\frmEstadisticaVisualizacionesMes.cs",
+              "ToolTip": "E:\\Programas random para practicar\\pryMovieInsight\\pryMovieInsight\\frmEstadisticaVisualizacionesMes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "pryMovieInsight\\frmEstadisticaVisualizacionesMes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T00:07:45.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMovieInsight.cs [Dise\u00F1o]",
+              "DocumentMoniker": "E:\\Programas random para practicar\\pryMovieInsight\\pryMovieInsight\\frmMovieInsight.cs",
+              "RelativeDocumentMoniker": "pryMovieInsight\\frmMovieInsight.cs",
+              "ToolTip": "E:\\Programas random para practicar\\pryMovieInsight\\pryMovieInsight\\frmMovieInsight.cs [Dise\u00F1o]",
+              "RelativeToolTip": "pryMovieInsight\\frmMovieInsight.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:15:31.886Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

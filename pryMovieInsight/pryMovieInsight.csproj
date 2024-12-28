@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F5EAEFA-73EE-4AC4-9635-449CB742BD7D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>pryMovieInsight</RootNamespace>
+    <AssemblyName>pryMovieInsight</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAcercaDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAcercaDe.Designer.cs">
+      <DependentUpon>frmAcercaDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarNuevoGenero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarNuevoGenero.Designer.cs">
+      <DependentUpon>frmAgregarNuevoGenero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaDatosGénero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaDatosGénero.Designer.cs">
+      <DependentUpon>frmConsultaDatosGénero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaVisualizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaVisualizaciones.Designer.cs">
+      <DependentUpon>frmConsultaVisualizaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstadisticaVisualizacionesGenero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstadisticaVisualizacionesGenero.Designer.cs">
+      <DependentUpon>frmEstadisticaVisualizacionesGenero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstadisticaVisualizacionesMes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstadisticaVisualizacionesMes.Designer.cs">
+      <DependentUpon>frmEstadisticaVisualizacionesMes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListadoGeneralGeneros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListadoGeneralGeneros.Designer.cs">
+      <DependentUpon>frmListadoGeneralGeneros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMovieInsight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMovieInsight.Designer.cs">
+      <DependentUpon>frmMovieInsight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarVisualizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarVisualizaciones.Designer.cs">
+      <DependentUpon>frmRegistrarVisualizaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVisualizacionesGenero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizacionesGenero.Designer.cs">
+      <DependentUpon>frmVisualizacionesGenero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVisualizacionesMes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVisualizacionesMes.Designer.cs">
+      <DependentUpon>frmVisualizacionesMes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matriz.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registro.cs" />
+    <EmbeddedResource Include="frmAcercaDe.resx">
+      <DependentUpon>frmAcercaDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarNuevoGenero.resx">
+      <DependentUpon>frmAgregarNuevoGenero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaDatosGénero.resx">
+      <DependentUpon>frmConsultaDatosGénero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaVisualizaciones.resx">
+      <DependentUpon>frmConsultaVisualizaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstadisticaVisualizacionesGenero.resx">
+      <DependentUpon>frmEstadisticaVisualizacionesGenero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstadisticaVisualizacionesMes.resx">
+      <DependentUpon>frmEstadisticaVisualizacionesMes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListadoGeneralGeneros.resx">
+      <DependentUpon>frmListadoGeneralGeneros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMovieInsight.resx">
+      <DependentUpon>frmMovieInsight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarVisualizaciones.resx">
+      <DependentUpon>frmRegistrarVisualizaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisualizacionesGenero.resx">
+      <DependentUpon>frmVisualizacionesGenero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVisualizacionesMes.resx">
+      <DependentUpon>frmVisualizacionesMes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
